@@ -1,0 +1,63 @@
+-- ---------------------------------------- Ex 1 ------------------
+
+--- 1 --------------
+Docker est une plateforme qui permet de créer, 
+déployer et gérer des applications dans des conteneurs. 
+L'objectif principal est d'assurer la portabilité, 
+la rapidité et la cohérence des environnements de développement, 
+de test et de production
+
+--- 2 --------------
+C’est hub.docker.com ?
+
+Docker Hub est un service de registre d'images Docker, 
+permettant aux utilisateurs de stocker et de partager des images. 
+Il contient une vaste bibliothèque d'images publiques et privées.
+
+--- 3 --------------
+Comment télécharger une image depuis hub.docker.com ?
+
+docker pull <image_name>
+
+--- 4 --------------
+Télécharger Nginx
+
+docker pull nginx
+
+--- 5 --------------
+Afficher la liste des images
+
+docker images
+
+--- 6 --------------
+Supprimer l’image Nginx
+
+docker rmi nginx
+
+--- 7 --------------
+docker pull mongodb
+
+--- 8 --------------
+Construire un container
+
+docker run -d --name my-mongo-container mongo
+
+--- 9 --------------
+Afficher la liste des containers actifs
+
+docker ps
+
+--- 10 --------------
+Arrêter le container
+
+docker stop my-mongo-container
+
+--- 11 --------------
+afficher la liste des containers
+
+docker ps -a
+
+--- 12 --------------
+restart le container
+
+docker restart my-mongo-container
